@@ -1,0 +1,155 @@
+# 📊 E-Commerce Sales Analysis Dashboard
+
+## 📌 Project Overview
+
+This project is a complete **Exploratory Data Analysis (EDA)** and **Dashboard creation** for an e-commerce dataset containing **1,200 orders**.
+The goal is to analyze sales performance, customer behavior, product trends, and marketing effectiveness to generate actionable business insights.
+
+---
+
+## 🎯 Objectives
+
+* Understand overall sales performance
+* Identify top-performing products
+* Analyze customer payment behavior
+* Evaluate marketing channels (referrals)
+* Detect sales trends over time
+* Build an interactive Excel dashboard
+
+---
+
+## 📂 Dataset Overview
+
+The dataset contains:
+
+* Order ID
+* Order Date
+* Customer Information
+* Product Category
+* Quantity & Total Price
+* Payment Method
+* Order Status (Delivered, Cancelled, Returned, etc.)
+* Referral Source (Marketing channel)
+
+Total Records: **1200 Orders**
+
+---
+
+## 🛠 Tools Used
+
+* Microsoft Excel
+* Pivot Tables
+* Charts (Line, Bar, Pie)
+* Conditional Formatting
+* Data Cleaning Functions
+
+---
+
+## 🧹 Data Cleaning Steps
+
+* Handled missing values in CouponCode
+* Extracted Month and Year from Order Date
+* Standardized categorical values
+* Checked for duplicates and inconsistencies
+
+---
+
+## 📊 Analysis Performed
+
+### 1. Sales Performance
+
+* Total Revenue calculation
+* Average order value
+* Monthly revenue trend analysis
+
+### 2. Product Analysis
+
+* Identification of top-selling products
+* Revenue contribution per product
+
+### 3. Customer Behavior
+
+* Payment method preferences
+* Order status distribution
+
+### 4. Marketing Analysis
+
+* Referral source performance (Instagram, Google, Email, etc.)
+* Customer acquisition channel comparison
+
+### 5. Outlier Detection
+
+* Identification of unusually high-value orders using conditional formatting
+
+---
+
+## 📈 Dashboard Features
+
+The final Excel dashboard includes:
+
+* KPI Cards:
+
+  * Total Orders
+  * Total Revenue
+  * Average Revenue
+
+* Visualizations:
+
+  * Monthly Revenue Trend (Line Chart)
+  * Product Performance (Bar Chart)
+  * Order Status Distribution (Pie Chart)
+  * Payment Methods (Column Chart)
+  * Referral Sources (Bar Chart)
+  * Coupon Analysis (Column Chart)
+
+---
+
+## 🔑 Key Insights
+
+* Instagram is the leading customer acquisition channel.
+* Online payments are the most commonly used method.
+* Certain products (Printers, Laptops, Chairs) generate the highest revenue.
+* Sales show fluctuations across months, with a peak in mid-year.
+* Most orders are successfully delivered.
+
+---
+
+## 💡 Business Recommendations
+
+* Increase marketing investment in Instagram campaigns.
+* Promote high-revenue products with targeted offers.
+* Encourage online payments through incentives.
+* Investigate reasons behind order cancellations.
+* Optimize marketing strategies during low-sales months.
+
+---
+
+## 📁 Project Structure
+
+```
+E-Commerce-Analysis/
+│
+├── Raw_Data.xlsx
+├── EDA_PivotTables.xlsx
+├── Dashboard.xlsx
+├── Insights_Report.xlsx
+└── README.md
+```
+
+---
+
+## 🚀 Outcome
+
+This project demonstrates practical skills in:
+
+* Data cleaning
+* Exploratory data analysis
+* Business intelligence
+* Dashboard design
+* Data-driven decision making
+
+---
+
+## 👨‍💻 Author
+
+Data Analyst Intern Project – DecodeLabs Internship Program
