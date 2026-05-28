@@ -1,0 +1,144 @@
+# DecodeLabs SQL Data Analysis Project
+
+## Project Overview
+
+This project was completed as part of the DecodeLabs Data Analytics Internship Program.
+
+The objective of this project is to analyze transactional business data using SQL and extract meaningful business insights through querying, filtering, grouping, and aggregation operations.
+
+---
+
+## Dataset Information
+
+The dataset contains transactional order data with columns including:
+
+* OrderID
+* Date
+* CustomerID
+* Product
+* Quantity
+* UnitPrice
+* PaymentMethod
+* OrderStatus
+* ItemsInCart
+* CouponCode
+* ReferralSource
+* TotalPrice
+
+---
+
+## Tools & Technologies Used
+
+* MySQL Workbench
+* SQL
+* Microsoft Excel
+
+---
+
+## SQL Concepts Applied
+
+The project demonstrates practical implementation of:
+
+* SELECT Statements
+* WHERE Filtering
+* ORDER BY Sorting
+* GROUP BY Aggregations
+* COUNT()
+* SUM()
+* AVG()
+* HAVING
+
+---
+
+## Project Workflow
+
+1. Imported Excel dataset into MySQL
+2. Created database and tables
+3. Executed SQL queries for analysis
+4. Applied aggregation functions
+5. Generated business insights
+6. Created analytical report
+
+---
+
+## Key Findings
+
+### Business KPIs
+
+| Metric              | Value         |
+| ------------------- | ------------- |
+| Total Orders        | 1200          |
+| Total Revenue       | $1,264,761.96 |
+| Average Order Value | $1,053.90     |
+
+---
+
+### Product Performance
+
+| Product Insight         | Result            |
+| ----------------------- | ----------------- |
+| Highest Selling Product | Chair (562 Units) |
+| Highest Revenue Product | Chair ($195,620)  |
+| Lowest Revenue Product  | Phone ($151,722)  |
+
+---
+
+### Customer Acquisition Performance
+
+| Metric                 | Result               |
+| ---------------------- | -------------------- |
+| Top Acquisition Source | Instagram            |
+| Highest Revenue Source | Instagram ($275,285) |
+
+---
+
+## Business Insights
+
+* Social media channels play a major role in customer acquisition.
+* Revenue distribution is relatively balanced across products.
+* Product diversification reduces dependency on a single revenue stream.
+* High-performing products create opportunities for bundling strategies.
+
+---
+
+## Repository Structure
+
+```bash
+DecodeLabs-Project-3-SQL-Data-Analysis
+│
+├── Dataset/
+│   ├── Dataset for Data Analytics.xlsx
+│   └── Orders.csv
+│
+├── Screenshots/
+│   ├── Average_Order_Value.png
+│   ├── Best_selling.png
+│   ├── Coupons.png
+│   ├── Delivered_Orders.png
+│   └── ...
+│
+├── Report/
+│   └── Insights_Report.pdf
+│
+├── project3_queries.sql
+│
+└── README.md
+```
+
+---
+
+## SQL Queries File
+
+All SQL queries used throughout the project are included inside:
+
+```sql
+project3_queries.sql
+```
+
+---
+
+## Conclusion
+
+This project demonstrates practical SQL-based data analysis skills by transforming raw transactional data into meaningful business insights using relational database querying techniques.
+
+The project highlights practical experience with SQL querying, aggregation, filtering, grouping, and business reporting workflows.
